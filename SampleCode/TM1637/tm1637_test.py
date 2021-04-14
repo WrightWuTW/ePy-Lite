@@ -1,14 +1,14 @@
 # MicroPython TM1637 quad 7-segment LED display driver examples
 
 # WeMos D1 Mini -- 4 Digit Display
-# D1 (GPIO5) ----- CLK
-# D2 (GPIO4) ----- DIO
+# D1 (P18) ----- CLK
+# D2 (P19) ----- DIO
 # 3V3 ------------ VCC
 # G -------------- GND
 
 import tm1637
 from machine import Pin
-tm = tm1637.TM1637(clk=Pin(5), dio=Pin(4))
+tm = tm1637.TM1637(clk=Pin.board.P19, Pin.board.P18)
 
 # all LEDS on "88:88"
 tm.write([127, 255, 127, 127])
