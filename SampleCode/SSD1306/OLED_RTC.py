@@ -1,6 +1,6 @@
 import ssd1306
 from machine import I2C,delay,RTC
-i2c = I2C(0,I2C.MASTER,buadrate=400000)
+i2c = I2C(0,I2C.MASTER,baudrate=400000)
 disp = ssd1306.SSD1306_I2C(128,64,i2c)
 
 today = (2021,3,16,3,9,0,0,0)
