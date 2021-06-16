@@ -10,7 +10,7 @@ p1 = Pin(Pin.board.P1,Pin.IN)  #P1 Input GPIO
 
 key = Pin.board.KEYA
 #IRQ_RISING,Pin.IRQ_FALLING , IRQ_HIGH , IRQ_LOW
-key.irq(handler=pin_callback_fun , trigger=IRQ_FALLING) 
+key.irq(handler=pin_callback_fun , trigger=key.IRQ_FALLING) 
 
 while True:
     p0.value(1) # Output High
