@@ -1,3 +1,10 @@
+'''
+
+P17 --- CLK
+P16 --- DAT
+P15 --- RST (CS)
+'''
+
 from machine import Pin
 from ds1302 import DS1302
 
