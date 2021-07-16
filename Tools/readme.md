@@ -8,7 +8,7 @@ Just for Windows OS .It don't need install any driver in Windows OS.
 * exec the EPY-ISP.exe 
 > 1. short board isp-io pin and GND  
 > > * Lite -- P17 
-![image](https://github.com/WrightWuTW/ePy-Lite/blob/main/Tools/Lite-Pin.png)
+![image](https://github.com/WrightWuTW/ePy-Lite/blob/main/Tools/Lite-ISP_pin.png)
 > 2. Board connect USB to Windows OS
 > 3. use EPY-ISP tools to update the bin file.
 ![image](https://github.com/WrightWuTW/ePy-Lite/blob/main/Tools/EPY-ISP.png)
